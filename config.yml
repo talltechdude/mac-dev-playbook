@@ -1,0 +1,72 @@
+configure_dotfiles: false
+configure_terminal: false
+configure_osx: false
+
+homebrew_installed_packages:
+  - git
+  - autoconf
+  - bash-completion
+  - doxygen
+  - gettext
+  - gifsicle
+  - git
+  - github/gh/gh
+  - go
+  - gpg
+  - httpie
+  - iperf
+  - libevent
+  - sqlite
+  - mcrypt
+  - nmap
+  - node
+  - nvm
+  - php
+  - ssh-copy-id
+  - cowsay
+  - readline
+  - openssl
+  - pv
+  - wget
+  - wrk
+  - zsh-history-substring-search
+  
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - docker
+  - handbrake
+  - licecap
+  - microsoft-edge
+
+mas_installed_apps: []
+
+npm_packages: []
+#  - name: webpack
+
+pip_packages: []
+#  - name: mkdocs
+
+configure_dock: true
+dockitems_remove:
+  - Messages
+  - Mail
+  - Maps
+  - Photos
+  - FaceTime
+  - Calendar
+  - Contacts
+  - Reminders
+  - Notes
+  - TV
+  - Music
+  - Podcasts
+  - News
+  - Feedback Assistant
+dockitems_persist:
+  - name: "Terminal"
+    path: "/System/Applications/Utilities/Terminal.app"
+    pos: 5
